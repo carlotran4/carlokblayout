@@ -9,6 +9,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        go_macro {
+            bindings = <&none>;
+            key-positions = <38 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -60,7 +69,7 @@
             >;
         };
 
-        extra_1 { status = "reserved"; };
+        macro { status = "reserved"; };
 
         extra_2 { status = "reserved"; };
 
