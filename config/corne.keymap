@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         go_macro {
-            bindings = <&none>;
+            bindings = <&mo 3>;
             key-positions = <38 39>;
         };
     };
